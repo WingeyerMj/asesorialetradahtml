@@ -1,0 +1,560 @@
+@font-face {
+  font-family: brokman-regular;
+  font-weight: 400;
+  src: url(../font/brokman-regular-webfont.woff); }
+@font-face {
+  font-family: brokman-bold;
+  font-weight: 700;
+  src: url(../font/brokman-bold-webfont.woff); }
+@media (min-width: 992px) {
+  .jumbotron-home h1 {
+    font-size: 3rem; } }
+body {
+  padding-top: 4.2rem; }
+
+h1,
+h2,
+h3 {
+  font-family: "brokman-bold", arial, sans-serif; }
+
+h1,
+h2 {
+  letter-spacing: -.005em; }
+
+section {
+  margin-bottom: 3rem; }
+
+.card {
+  margin-bottom: 2rem; }
+
+nav.navbar {
+  min-height: 4.5rem;
+  border-bottom: solid 1px #e0e0e0;
+  background: url(https://d1pucn86e4upao.cloudfront.net/templates/g5_hydrogen/custom/images/borde-colores.svg) center top repeat-x white; }
+
+.jumbotron-home {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-bottom: 0;
+  background-position: center top;
+  background-position: left top;
+  background-size: cover;
+  background-size: cover; }
+  .jumbotron-home h1,
+  .jumbotron-home h2,
+  .jumbotron-home p {
+    text-shadow: 0 0 10px #59131c; }
+  .jumbotron-home p.lead {
+    font-weight: 700; }
+  .jumbotron-home li.list-group-item {
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 1.5; }
+
+.botonera-buscador .btn {
+  margin: .3rem;
+  color: #3f69af; }
+
+.accesos {
+  padding: 1.5rem 0;
+   }
+  .accesos .icono-acceso {
+    font-size: 5rem;
+    color: #871c28; }
+
+.divisor-seccion {
+  border-width: 5px; }
+
+.telefonos .card {
+  border: none; }
+  .telefonos .card .card-title {
+    font-family: brokman-bold !important; }
+  .telefonos .card .card-body {
+    padding: .5rem; }
+
+footer {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#040000), to(#4b0014));
+  background: linear-gradient(to right, #040000 0%, #4b0014 100%); }
+  footer a {
+    color: #fff; }
+    footer a:hover {
+      color: white; }
+  footer hr {
+    border-color: #871c28; }
+
+ol.breadcrumb {
+  padding: .75rem 0;
+  background: transparent; }
+
+.titulo-seccion {
+  margin: 0 auto;
+  text-align: center; }
+
+ul.sy-bus-result.list-group {
+  text-align: left;
+  color: #000; }
+  ul.sy-bus-result.list-group a {
+    font-size: 1rem;
+    color: #3f69af; }
+  ul.sy-bus-result.list-group h1,
+  ul.sy-bus-result.list-group h2,
+  ul.sy-bus-result.list-group figcaption h1,
+  ul.sy-bus-result.list-group figcaption p {
+    font-size: 16px;
+    text-shadow: none; }
+
+/*# sourceMappingURL=patron.css.map */
+
+.img-fluid-noticias {
+    min-height: 168px;
+}
+.img-fluid-noticias {
+    max-height: 168px;
+}
+
+/*boton de formularios dinamicos*/
+.syrah-asist button{
+  margin-top: 10px!important;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 8px;
+  background-color: #77132d;
+  color: #e2e1e0;
+  font-size: 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+@media (max-width: 575px){
+  .syrah-asist button {
+    width: 94%;
+    margin: 3.3%;
+  }
+}
+
+@media (min-width: 576px){
+  .syrah-asist button {
+    width: 510px;
+  }
+}
+
+@media (min-width: 768px){
+  .syrah-asist button {
+    width: 690px;
+  }
+}
+
+@media (min-width: 992px){
+  .syrah-asist button {
+    width: 930px;
+  }
+}
+
+
+@media (min-width: 1200px){
+  .syrah-asist button {
+    width: 1110px;    
+  }
+}
+
+.syrah-asist .form-row .col-12{
+    flex: none;
+}
+.sy-busc-div2 {
+  display: none;
+}
+/*BOOSTRAP COL 10*/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+/*FIN STYLE COL 5*/
+
+/*titulo organigrama*/
+.alto-tit-org {
+  height: 76px;
+}
+.trunca-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;/*si no se declara aÃ±ade los ... pero muestra todo el texto*/
+}
+.trunca-text2 {
+  -webkit-line-clamp: 2;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+/*LOGOS NAVBAR RESPONSIVE*/
+@media (max-width: 767px) {
+  .padre-img1{
+      position: relative;
+      width: 42px;
+      overflow: hidden;
+      top: 0px;
+      height: 50px;
+      margin-left: 0px;
+  }
+
+  .padre-img2{
+      /*overflow: hidden;*/
+      margin-left: -45%;
+  }
+
+  .img2{
+      margin-left: -15px;
+  }
+}
+          
+@media (max-width: 575px) {
+  .padre-img2{
+      margin-left: -50%;
+  }
+}
+
+@media (max-width: 495px) {
+  .padre-img2{
+      margin-left: -32%;
+  }
+}
+
+@media (max-width: 425px) {
+  .padre-img2{
+      margin-left: -18%;
+  }
+}
+
+@media (max-width: 400px) {
+  .padre-img2{
+      margin-left: -23%;
+  }
+}
+
+@media (max-width: 375px) {
+  .padre-img2{
+      margin-left: -17%;
+  }
+}
+
+@media (max-width: 350px) {
+  .padre-img2{
+      margin-left: -22%;
+  }
+}
+
+@media (max-width: 325px) {
+  .padre-img2{
+      margin-left: -17%;
+  }
+}
+
+@media (max-width: 300px) {
+  .padre-img2{
+      margin-left: -12%;
+  }
+}
+/*FIN LOGOS NAVBAR RESPONSIVE*/
+
+/*COLOR CARDS NRO TELEFONOS ORGANISMOS*/
+.card-bg-gob{
+  background-color: #A21A27;
+  color: white;
+}
+
+.card-bg-gob-alt{
+  background-color: #fff;
+  color: #7C142D;
+  border: solid 6px;
+}
+
+.card-body-bg-white{
+  background-color: #fff;
+  color: #555;
+}
+
+.card-body-bg-alt{
+  background-color: #fff;
+  color: #555;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.border-bottom-item{
+  border-bottom: 1px solid #7C142D!important;
+}
+
+.link-white,.link-white:hover{
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link-azul,.link-azul:hover{
+  color: #3f69af!important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.texto-centro{
+  text-align: center;
+}
+
+.texto-left{
+  text-align: left;
+}
+
+.texto-right{
+  text-align: right;
+}
+
+.fs-40{
+  font-size: 40px;
+}
+
+.banner-w100{
+  background-color: #871c28;
+  color: white;
+  padding: 4rem!important;
+  height: 100px;
+}
+
+.text-decoration-none:hover{
+  text-decoration: none!important;
+}
+
+.pointer:hover{
+  cursor:pointer;
+}
+
+.banner-w100 h1{
+  margin-top: -30px;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (max-width: 1199px) {
+  .banner-w100 h1{
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-w100{
+    padding: 4rem 4rem 1rem 4rem!important;
+  }
+  .banner-w100 h1{
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-w100 h1{
+    text-align: center;
+    padding: 0px;
+    margin-top: -42px;
+  }
+}
+
+@media (max-width: 517px) {
+  .banner-w100{
+    padding-bottom: 35px;
+  }
+  .banner-w100 h1{
+    font-size: 26px;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .banner-w100 h1{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 455px) {
+  .banner-w100 h1{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 430px) {
+  .banner-w100 h1{
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 418px) {
+  .banner-w100 h1{
+    font-size: 18px;
+    margin-top: -33px;
+  }
+}
+
+@media (max-width: 381px) {
+  .banner-w100 h1{
+    margin-top: -41px;
+  }
+}
+
+@media (max-width: 271px) {
+  .banner-w100 h1{
+    margin-top: -42px;
+    font-size: 18px;
+  }
+}
+
+
+
+/*viÃ±eta item lista off*/
+li.sy-item.syrah-opcion{
+  list-style: none;
+}
+
+.tramites a, .a-color-blue{
+  color:#3f69af!important;
+  cursor:pointer;
+}
+
+/*EXPEDIENTES RESULTADO*/
+.syrah-result table{
+  text-align: center;
+}
+
+/*LIST VIEWS*/
+p.text-primary.titulosclaros.display-4.mobile.p-1-top {
+  font-size: 14px!important;
+}
+
+li.sy-item.syrah-opcion.w3-padding-8 {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.syrah-lista-body {
+  height: 429.21478px;
+  position: relative;
+  overflow: scroll;
+}
+/*FIN LIST VIEWS*/
+
+/*FUENTE MSJ BIENVENIDA*/
+
+
+@media (min-width: 991px) {
+  .fs-responsive{
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 990px) {
+  .fs-responsive{
+    font-size: 5vhpx;
+  }
+}
+
+@media (max-width: 575px) {
+  .fs-responsive{
+    font-size: 4vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .fs-responsive{
+    font-size: 3vh;
+  }
+}
+/*FIN FUENTE MSJ BIENVENIDA*/
+
+.titulo-componente-open{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#modal-footer{
+  max-width: 1110px;
+  margin: auto;
+  margin-top: 35px;
+  padding-left: 20px;
+}
+
+.list-link a {
+  background-color: #8D1C29;
+}
+
+.list-link a:hover{
+  background-color: #ccc;
+  color: #111!important;
+}
+
+.text-justified{
+  text-align: justify;
+}
+
+/*Organigrama*/
+.nombreOrganismo {
+  min-height: 68px!important;
+  font-size: 18px!important;
+}
+
+.orgTitulo {
+  font-size: 14px;
+   min-height: 44px;
+    font-weight: 400;
+}
+
+.orgTitulo2 {
+  font-size: 14px;
+   min-height: 44px;
+    font-weight: 500;
+}
+
+.cargoFuncionario {
+  font-size: 14px;
+  min-height: 49px;
+} 
+
+/*FIN Organigrama*/
