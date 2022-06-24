@@ -256,42 +256,64 @@ ul.sy-bus-result.list-group {
   .padre-img2{
       margin-left: -32%;
   }
+  .accesos{
+      height: 0px!important;
+    }
 }
 
 @media (max-width: 425px) {
   .padre-img2{
       margin-left: -18%;
   }
+  .accesos{
+      height: 0px!important;
+    }
 }
 
 @media (max-width: 400px) {
   .padre-img2{
       margin-left: -23%;
   }
+  .accesos{
+      height: 0px!important;
+    }
 }
 
 @media (max-width: 375px) {
   .padre-img2{
       margin-left: -17%;
   }
+  .accesos{
+      height: 0px!important;
+    }
 }
 
 @media (max-width: 350px) {
   .padre-img2{
       margin-left: -22%;
   }
+  .accesos{
+      height: 0px!important;
+    }
 }
 
 @media (max-width: 325px) {
   .padre-img2{
       margin-left: -17%;
   }
+  .accesos{
+      height: 0px!important;
+    }
 }
 
 @media (max-width: 300px) {
   .padre-img2{
       margin-left: -12%;
   }
+  .accesos{
+      height: 0px!important;
+    }
+  
 }
 /*FIN LOGOS NAVBAR RESPONSIVE*/
 
@@ -405,8 +427,6 @@ ul.sy-bus-result.list-group {
     font-size: 26px;
   }
 }
-
-
 
 @media (max-width: 480px) {
   .banner-w100 h1{
