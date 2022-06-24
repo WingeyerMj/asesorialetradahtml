@@ -41,8 +41,8 @@ nav.navbar {
   background: url(https://d1pucn86e4upao.cloudfront.net/templates/g5_hydrogen/custom/images/borde-colores.svg) center top repeat-x white; }
 
 .jumbotron-home {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+ /* padding-top: 5rem;
+  padding-bottom: 5rem;*/
   margin-bottom: 0;
   background-position: center top;
   background-position: left top;
@@ -73,12 +73,6 @@ nav.navbar {
 .divisor-seccion {
   border-width: 5px; }
 
-.telefonos .card {
-  border: none; }
-  .telefonos .card .card-title {
-    font-family: brokman-bold !important; }
-  .telefonos .card .card-body {
-    padding: .5rem; }
 
 footer {
   color: #fff;
