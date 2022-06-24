@@ -12,6 +12,14 @@
 body {
   padding-top: 4.2rem; }
 
+
+.imagen{
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  border-radius: 300px;   
+}
+
+
 h1,
 h2,
 h3 {
