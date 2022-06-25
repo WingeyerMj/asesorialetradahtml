@@ -29,8 +29,8 @@ h1,
 h2 {
   letter-spacing: -.005em; }
 
-section {
-  margin-bottom: 3rem; }
+/*section {
+  margin-bottom: 3rem; }*/
 
 .card {
   margin-bottom: 2rem; }
@@ -167,45 +167,6 @@ ul.sy-bus-result.list-group {
 .sy-busc-div2 {
   display: none;
 }
-/*BOOSTRAP COL 10*/
-.col-xs-5ths,
-.col-sm-5ths,
-.col-md-5ths,
-.col-lg-5ths {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.col-xs-5ths {
-    width: 20%;
-    float: left;
-}
-
-
-@media (min-width: 768px) {
-    .col-sm-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-
-@media (min-width: 992px) {
-    .col-md-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-
-@media (min-width: 1200px) {
-    .col-lg-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-
-/*FIN STYLE COL 5*/
 
 /*titulo organigrama*/
 .alto-tit-org {
@@ -225,97 +186,6 @@ ul.sy-bus-result.list-group {
   -webkit-box-orient: vertical;
 }
 
-/*LOGOS NAVBAR RESPONSIVE*/
-@media (max-width: 767px) {
-  .padre-img1{
-      position: relative;
-      width: 42px;
-      overflow: hidden;
-      top: 0px;
-      height: 50px;
-      margin-left: 0px;
-  }
-
-  .padre-img2{
-      /*overflow: hidden;*/
-      margin-left: -45%;
-  }
-
-  .img2{
-      margin-left: -15px;
-  }
-}
-          
-@media (max-width: 575px) {
-  .padre-img2{
-      margin-left: -50%;
-  }
-}
-
-@media (max-width: 495px) {
-  .padre-img2{
-      margin-left: -32%;
-  }
-  .accesos{
-      height: 0px!important;
-    }
-}
-
-@media (max-width: 425px) {
-  .padre-img2{
-      margin-left: -18%;
-  }
-  .accesos{
-      height: 0px!important;
-    }
-}
-
-@media (max-width: 400px) {
-  .padre-img2{
-      margin-left: -23%;
-  }
-  .accesos{
-      height: 0px!important;
-    }
-}
-
-@media (max-width: 375px) {
-  .padre-img2{
-      margin-left: -17%;
-  }
-  .accesos{
-      height: 0px!important;
-    }
-}
-
-@media (max-width: 350px) {
-  .padre-img2{
-      margin-left: -22%;
-  }
-  .accesos{
-      height: 0px!important;
-    }
-}
-
-@media (max-width: 325px) {
-  .padre-img2{
-      margin-left: -17%;
-  }
-  .accesos{
-      height: 0px!important;
-    }
-}
-
-@media (max-width: 300px) {
-  .padre-img2{
-      margin-left: -12%;
-  }
-  .accesos{
-      height: 0px!important;
-    }
-  
-}
-/*FIN LOGOS NAVBAR RESPONSIVE*/
 
 /*COLOR CARDS NRO TELEFONOS ORGANISMOS*/
 .card-bg-gob{
@@ -578,3 +448,95 @@ li.sy-item.syrah-opcion.w3-padding-8 {
 } 
 
 /*FIN Organigrama*/
+
+/*LOGOS NAVBAR RESPONSIVE*/
+@media (max-width: 767px) {
+  .padre-img1{
+      position: relative;
+      width: 42px;
+      overflow: hidden;
+      top: 0px;
+      height: 50px;
+      margin-left: 0px;
+  }
+
+  
+  .img2{
+      margin-left: -15px;
+  }
+}
+
+
+@media (max-width: 495px) {
+  .accesos{
+      height: 0px!important;
+    }
+}
+
+@media (max-width: 425px) {
+  .accesos{
+      height: 0px!important;
+    }
+}
+
+@media (max-width: 400px) {
+  .accesos{
+      height: 0px!important;
+    }
+}
+
+@media (max-width: 375px) {
+  .accesos{
+      height: 0px!important;
+    }
+}
+
+@media (max-width: 350px) {
+  .accesos{
+      height: 0px!important;
+    }
+}
+
+@media (max-width: 325px) {
+  .accesos{
+      height: 0px!important;
+    }
+}
+
+@media (max-width: 300px) {
+   .padre-img2{
+      margin-left: 1%;
+  }
+  .accesos{
+      height: 0px!important;
+    }
+  
+}
+/*FIN LOGOS NAVBAR RESPONSIVE*/
+
+/*FIN ACCESOS MENU*/
+@media (min-width: 991px) {
+   .nav-item{
+     margin-left: 150px!important;
+  }
+}
+
+@media (max-width: 990px) {
+   .nav-item{
+     margin-left: 100px;
+  }
+}
+
+@media (max-width: 575px) {
+    .nav-item{
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 450px) {
+   .nav-item{
+    margin-left: 10px;
+  }
+}
+/*FIN ACCESOS MENU*/
+

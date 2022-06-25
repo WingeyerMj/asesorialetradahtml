@@ -61,13 +61,14 @@
     <!-- MENU-->
     <section>
         <nav class="navbar navbar-light navbar-expand-md fixed-top text-md-left">
-            <div class="col-lg-8">
-                <div class="col-lg-4">
-                    <a href="https://www.sanjuan.gob.ar" class="navbar-brand padre-img1">
-                        <img src="img/logo.png" alt="" width="150">
-                        <img src="img/logos/asesoriaLetrada.png" alt="" width="150" class="img2">
-                    </a>
-                   
+            <div class="row col-lg-8 col-sm-12-">
+                <div class="col-lg-3 col-sm-5">
+                    <a href="https://www.sanjuan.gob.ar" target="_blank">
+                        <img src="img/logo.png"  width="150" class="padre-img2">
+                    </a>                                         
+                </div>
+                <div class="col-lg-3 col-sm-5" style="margin-top: 10px">
+                     <img src="img/logos/asesoriaLetrada.png" width="150" class="padre-img2">  
                 </div>
             </div>
         </nav>
@@ -95,107 +96,46 @@
     <!-- fin CABECERA-->
 
     <!-- ACCESOS-->
-    <section id="accesos" class="jumbotron jumbotron-home text-light" style="background-position: center; background-image:linear-gradient(rgba(89,19,28,0.9),
-            rgba(0,0,0,0)),url('img/fondo.jpg');height: 300px; margin-bottom: 10px!important ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-position: center; background-image:linear-gradient(rgba(89,19,28,0.9),rgba(0,0,0,0)),url('img/fondo.jpg')">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background:  white">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                  </li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <h1 class="lead text-light">Leyes</h1>
+                <ul class="list-unstyled">
+                    <li><a href="https://diputadossanjuan.gob.ar/archivos/Constitucion_Provincial.pdf" target="_blank"><h5 class="lead text-light">Constitución de San Juan</h5></a></li>
+                    <li><a href="https://www.argentina.gob.ar/sites/default/files/constitucion-argentina_lectura-facil_0.pdf" target="_blank"><h5 class="lead text-light" >Constitución Argentina</h5></a></li>
+                    <li><a href="https://digestosanjuan.gob.ar/home" target="_blank"><h5 class="lead text-light">Digesto jurídico</h5></a></li>
+                    <li><a href="https://digesto.sanjuan.gob.ar/digesto/" target="_blank"><h5 class="lead text-light">Digesto administrativo</h5></a></li>
+                    <li><a href="#"><h5 class="lead text-light">Digesto decretos reglamentarios</h5></a></li>
                 </ul>
-              </div>
-            </nav>
-
-        <!-- <nav class="">
-            <div class="container">
-                <div class="row"> 
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <h2>Leyes</h2>
-                            <ul class="list-unstyled text-small">
-                                <li><a href="https://diputadossanjuan.gob.ar/archivos/Constitucion_Provincial.pdf" target="_blank"><h3 class="lead text-light">Constitución de San Juan</h3></a></li>
-                                <li><a href="https://www.argentina.gob.ar/sites/default/files/constitucion-argentina_lectura-facil_0.pdf" target="_blank"><h3 class="lead text-light" >Constitución Argentina</h3></a></li>
-                                <li><a href="https://digestosanjuan.gob.ar/home" target="_blank"><h3 class="lead text-light">Digesto jurídico</h3></a></li>
-                                <li><a href="https://digesto.sanjuan.gob.ar/digesto/" target="_blank"><h3 class="lead text-light">Digesto administrativo</h3></a></li>
-                                <li><a href="#"><h3 class="lead text-light">Digesto decretos reglamentarios</h3></a></li>
-                            </ul>
-                    </div>
-
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <h2>Instituciones</h2>
-                            <ul class="list-unstyled text-small">
-                                <li><a href="https://www.fasj.org.ar/wp/" target="_blank"><h3 class="lead text-light">Foro de Abogados</h3></a></li>
-                                <li><a href="https://webmail.sanjuan.gov.ar/owa" target="_blank"><h3 class="lead text-light">Acceso a Webmail</h3></a></li>
-                                <li><a href="https://correo.sanjuan.gob.ar/" target="_blank"><h3 class="lead text-light">Correo</h3></a></li>
-                            </ul>
-                    </div>
-
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <h2>Accesos directos</h2>
-                            <ul class="list-unstyled text-small">
-                                <li><a href="https://boletinoficial.sanjuan.gob.ar/" target="_blank"><h3 class="lead text-light">Boletín oficial</h3></a></li>
-                            </ul>
-                    </div>
-                </div>
-               
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menú de navegación">
-                    <span class="navbar-toggler-icon">
-                         
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="menu-principal">
-                    <ul class="navbar-nav ml-auto">  
-                    </ul>
-                </div>
-            </div>
-        </nav> -->
-        <!-- <div class="container">
-            <div class="row"> 
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <h2>Leyes</h2>
-                        <ul class="list-unstyled text-small">
-                            <li><a href="https://diputadossanjuan.gob.ar/archivos/Constitucion_Provincial.pdf" target="_blank"><h3 class="lead text-light">Constitución de San Juan</h3></a></li>
-                            <li><a href="https://www.argentina.gob.ar/sites/default/files/constitucion-argentina_lectura-facil_0.pdf" target="_blank"><h3 class="lead text-light" >Constitución Argentina</h3></a></li>
-                            <li><a href="https://digestosanjuan.gob.ar/home" target="_blank"><h3 class="lead text-light">Digesto jurídico</h3></a></li>
-                            <li><a href="https://digesto.sanjuan.gob.ar/digesto/" target="_blank"><h3 class="lead text-light">Digesto administrativo</h3></a></li>
-                            <li><a href="#"><h3 class="lead text-light">Digesto decretos reglamentarios</h3></a></li>
-                        </ul>
-                </div>
-
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <h2>Instituciones</h2>
-                        <ul class="list-unstyled text-small">
-                            <li><a href="https://www.fasj.org.ar/wp/" target="_blank"><h3 class="lead text-light">Foro de Abogados</h3></a></li>
-                            <li><a href="https://webmail.sanjuan.gov.ar/owa" target="_blank"><h3 class="lead text-light">Acceso a Webmail</h3></a></li>
-                            <li><a href="https://correo.sanjuan.gob.ar/" target="_blank"><h3 class="lead text-light">Correo</h3></a></li>
-                        </ul>
-                </div>
-
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <h2>Accesos directos</h2>
-                        <ul class="list-unstyled text-small">
-                            <li><a href="https://boletinoficial.sanjuan.gob.ar/" target="_blank"><h3 class="lead text-light">Boletín oficial</h3></a></li>
-                        </ul>
-                </div>
-            </div>
-        </div> -->
-    </section>
-    <!-- fin ACCESOS-->
-
+                <span class="sr-only">(current)</span>
+          </li>
+          <li class="nav-item">
+           <h2 class="lead text-light">Instituciones</h2>
+                <ul class="list-unstyled text-small">
+                    <li><a href="https://www.fasj.org.ar/wp/" target="_blank"><h5 class="lead text-light">Foro de Abogados</h5></a></li>
+                    <li><a href="https://webmail.sanjuan.gov.ar/owa" target="_blank"><h5 class="lead text-light">Acceso a Webmail</h5></a></li>
+                    <li><a href="https://correo.sanjuan.gob.ar/" target="_blank"><h5 class="lead text-light">Correo</h5></a></li>
+                </ul>
+                <span class="sr-only">(current)</span>
+          </li>
+          <li class="nav-item">
+            <h2 class="lead text-light">Otros</h2>
+                <ul class="list-unstyled text-small">
+                    <li><a href="https://boletinoficial.sanjuan.gob.ar/" target="_blank"><h5 class="lead text-light">Boletín oficial</h5></a></li>
+                </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+        
+    <!-- fin ACCESOS -->
+       
     <br>
                 
     <!-- CIRCULARES Y DICTAMENES -->
@@ -257,7 +197,7 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h4 class="card-title h1">Dr. Carlos Alberto Lorenzo</h4>
-                        <h5>Asesor Letrado de Gobierno</h5>
+                        <h5>Asesor Letrado General de Gobierno</h5>
                         <p class="card-text"></p>
                     </div>
                 </div>
