@@ -509,7 +509,12 @@ li.sy-item.syrah-opcion.w3-padding-8 {
   }
   .accesos{
       height: 0px!important;
-    }  
+    } 
+ .principal{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+
+  } 
 }
 /*FIN LOGOS NAVBAR RESPONSIVE*/
 
