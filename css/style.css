@@ -544,3 +544,18 @@ li.sy-item.syrah-opcion.w3-padding-8 {
 }
 /*FIN ACCESOS MENU*/
 
+.card-asesores{
+    border-left: 5px solid rgb(89,19,28);
+    border-top-color: rgb(255, 185, 70);
+    border-right-color: rgb(255, 185, 70);
+    border-bottom-color: rgb(255, 185, 70);
+    padding: 25px;
+  }
+
+.card-secretaria{
+    border-left: 5px solid rgb(255,185,70);
+    border-top-color: rgb(255, 185, 70);
+    border-right-color: rgb(255, 185, 70);
+    border-bottom-color: rgb(255, 185, 70);
+    padding: 25px;
+  }
