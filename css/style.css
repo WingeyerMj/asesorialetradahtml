@@ -529,17 +529,26 @@ li.sy-item.syrah-opcion.w3-padding-8 {
    .nav-item{
      margin-left: 100px;
   }
+   #ley2366{
+    display: none;
+  }
 }
 
 @media (max-width: 575px) {
     .nav-item{
     margin-left: 70px;
   }
+   #ley2366{
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
    .nav-item{
     margin-left: 10px;
+  }
+  #ley2366{
+    display: none;
   }
 }
 /*FIN ACCESOS MENU*/
